@@ -38,9 +38,9 @@ app.controller('authController', function($scope){
 
     $scope.newUser = {username: '', password: '', confirmPassword: ''}
 
-    postService.getAll().success(function(data){
-        $scope.posts = data;
-    });
+    // postService.getAll().success(function(data){
+    //     $scope.posts = data;
+    // });
 
     $scope.login =function(){
         // space for authentication
